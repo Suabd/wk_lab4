@@ -28,7 +28,7 @@ class TestDiscount(TestCase):
         self.assertEqual(expected_discount, discount(prices))
 
     # test with string
-    def test_list_of_strings(self):
+    def test_list_of_strings(self): #
         prices = [6,8,12]
         expected_discount = 0
         self.assertEqual(expected_discount, discount(prices))

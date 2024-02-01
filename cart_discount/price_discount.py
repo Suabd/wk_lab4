@@ -10,6 +10,7 @@ def discount(item_prices):
     Example: if this function is called with a list of [10, 4, 20] then return 4.
     """
 
+    
    #Check for number of Items
     if len(item_prices) < 3:
         return 0
